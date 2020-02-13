@@ -1,0 +1,16 @@
+--- encode_unicode-0.3.6/Cargo.toml	1970-01-01T00:00:00+00:00
++++ encode_unicode-0.3.6/Cargo.toml	2019-09-01T17:37:41.884166+00:00
+@@ -29,11 +29,11 @@
+ default-features = false
+ 
+ [dependencies.clippy]
+-version = "0.*"
++version = "0"
+ optional = true
+ 
+ [features]
+ default = ["std"]
+ std = []
+ [target."cfg(unix)".dev-dependencies.lazy_static]
+-version = "1.0.*"
++version = "1.0"
